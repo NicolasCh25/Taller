@@ -1,0 +1,67 @@
+body {
+  background-image: url('./assets/imagenes2/software.jpeg'); /* Imagen de fondo */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  
+  font-family: Arial, sans-serif;
+  color: white;
+}
+.App header {
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #282c34a6;
+  color: white;
+
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+main {
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.26);
+}
+.yo {
+  height: 40vmin;
+  border: 3px solid #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.futbol, .ecua, .basq {
+  height: 40vmin;
+  pointer-events: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.futbol:hover, .ecua:hover, .basq:hover {
+  transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+}
+/* src/estilos/App.css */
+.materia-container {
+  margin-bottom: 15px;
+  
+}
+
+.materia-container div {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 20%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+button{
+  background-color: green ;
+  margin: 1%;
+}
